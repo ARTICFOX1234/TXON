@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep website</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+
+
+    <div class="banner">
+
+        <video autoplay muted loop id>
+            <source src="leafwind.mp4" type="video/mp4">
+        </video>
+        <div class="cont">
+
+            <h1>Love Nature</h1>
+            <p>
+                Whether it's watching blue, rolling waves crash against the sandy shore or hearing birds chirping in a
+                green, luscious forest, there is something so remarkable and beautiful about being immersed in nature.
+                It’s easy to be swept away with today’s technology and fast-paced living, but no matter where you are,
+                nature always has a way of bringing peace to the mind and grounding a person.
+                Although most of us spend our days online, it’s always important to unplug and step outside for a little
+                sunshine and fresh air. Maybe it’s going for a walk in the park or planning a hike on a sunny weekend.
+                Whatever you decide, we're sure it will be full of awe! And to celebrate Earth’s gifts, we are sharing
+                some amazing nature quotes to emphasize some of the beauty and wonders of Mother Nature.
+
+            </p>
+        </div>
+
+    </div>
+
+
+    <div class="background">
+        
+        <!-- <h1>this is a heading</h1>
+        <p>this is a paragraph</p> -->
+        <!-- <a href="https://codewithharry.com">click here</a> -->
+        <!-- <a href="/about.html">go to about</a> -->
+        <div class="container">
+            <!-- <h4>nature lover</h4>
+            <p>What a nice view</p> -->
+            <h1>quotes</h1>
+            <p>A forest is simply a large area of land dominated by trees. However, trees aren’t the only living things
+                present in these areas. Forests are home to thousands of the world’s animals that rely on these precious
+                ecosystems for survival.
+            </p>
+        </div>
+
+
+        <!-- <button class="btn login">login</button> -->
+
+        <div class="icon-bar">
+            <a class="active" href="#"><i class="fa fa-home"></i></a>
+            <a href="#"><i class="fa fa-search"></i></a>
+            <a href="#"><i class="fa fa-envelope"></i></a>
+            <a href="#"><i class="fa fa-globe"></i></a>
+            <a href="#"><i class="fa fa-trash"></i></a>
+        </div>
+
+        <!-- <img src="/e05744161d7500a183d5ec3a38a6e626.jpg" alt="image" style="width: 100%;"> -->
+    </div>
+    <button class="btn login" onclick="document.getElementById('id01').style.display='block'"
+        style="width:auto;">Login</button>
+
+    <div id="id01" class="modal">
+
+        <form class="modal-content animate" action="/action_page.php" method="post">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                    title="Close Modal">&times;</span>
+            </div>
+
+            <div class="container">
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <button type="submit">Login</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                    class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
